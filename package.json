@@ -1,22 +1,24 @@
 {
-  "name": "node-imap-example",
+  "name": "node-gmail-example",
   "description": "A Simple node-imap and mailparser example",
   "version": "0.0.1",
-  "homepage": "https://github.com/stefanbuck/node-imap-example",
-  "bugs": "https://github.com/stefanbuck/node-imap-example/issues",
+  "homepage": "https://github.com/stefanbuck/node-gmail-example",
+  "bugs": "https://github.com/kwakayama/node-gmail-example/issues",
   "license": "MIT",
   "main": "index.js",
   "author": {
-    "name": "Stefan Buck"
+    "name": "Kentaro Wakayama"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/stefanbuck/node-imap-example"
+    "url": "https://github.com/kwakayama/node-gmail-example"
   },
   "keywords": [],
   "dependencies": {
     "imap": "^0.8.9",
-    "mailparser": "^0.4.1"
+    "mailparser": "^0.4.1",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1"
   },
   "devDependencies": {
     "gulp": "~3.5.2",
