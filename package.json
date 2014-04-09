@@ -19,14 +19,5 @@
     "mailparser": "^0.4.1",
     "lodash": "^2.4.1",
     "q": "^1.0.1"
-  },
-  "devDependencies": {
-    "gulp": "~3.5.2",
-    "gulp-jscs": "~0.3.0",
-    "gulp-jshint": "~1.4.0",
-    "jshint-stylish": "~0.1.5"
-  },
-  "scripts": {
-    "test": "gulp test"
   }
 }
