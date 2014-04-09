@@ -1,9 +1,9 @@
 {
-  "name": "node-gmail-example",
+  "name": "node-gmail",
   "description": "A Simple node-imap and mailparser example",
   "version": "0.0.1",
-  "homepage": "https://github.com/stefanbuck/node-gmail-example",
-  "bugs": "https://github.com/kwakayama/node-gmail-example/issues",
+  "homepage": "https://github.com/kwakayama/node-gmail",
+  "bugs": "https://github.com/kwakayama/node-gmail/issues",
   "license": "MIT",
   "main": "mailSearch.js",
   "author": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwakayama/node-gmail-example"
+    "url": "https://github.com/kwakayama/node-gmail"
   },
   "keywords": [],
   "dependencies": {
