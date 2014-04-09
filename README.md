@@ -4,7 +4,7 @@ A Simple node-imap and mailparser example
 
 ##Usage
 
-    var MailSearch = require('./mailSearch');
+    var MailSearch = require('mailSearch');
 
     var search = new MailSearch({
       searchParams: [ 'UNSEEN' ]
