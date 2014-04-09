@@ -1,9 +1,13 @@
 'use strict';
 
 module.exports = {
-  user: 'you@mailserver.com',
-  password: 'password',
-  host: 'imap.mailserver.com',
-  port: 143,
-  tls: false
+  imap: {
+    user: 'hans.wurst@gmail.com',
+    password: 'Zwiebelrostbraten',
+    host: 'imap.gmail.com',
+    port: 993,
+    tls: true
+  },
+  searchParams: [ 'UNSEEN', ['FROM', 'ifttt.com'] ],
+  mailbox: 'INBOX'
 };

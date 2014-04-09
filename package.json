@@ -5,7 +5,7 @@
   "homepage": "https://github.com/stefanbuck/node-gmail-example",
   "bugs": "https://github.com/kwakayama/node-gmail-example/issues",
   "license": "MIT",
-  "main": "index.js",
+  "main": "mailSearch.js",
   "author": {
     "name": "Kentaro Wakayama"
   },
