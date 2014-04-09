@@ -6,11 +6,16 @@ A Simple node-imap and mailparser example
 
     var MailSearch = require('mailsearch');
 
-    var search = new MailSearch({
-      searchParams: [ 'UNSEEN' ]
-    });
-    
-    search.search().then(function(mails) {
+    var imapConfig = {
+      user: 'hans.wurst@gmail.com',
+      password: 'Zwiebelrostbraten',
+      host: 'imap.gmail.com',
+      port: 993,
+      tls: true
+    }
+
+    var ms = new MailSearch( imapConfig );
+    ms.search('INBOX', [ 'UNSEEN', ['FROM', 'ifttt.com'] ]).then(function(mails) {
       console.log('Total Inbox Count: :', mails.length);
     });
 
