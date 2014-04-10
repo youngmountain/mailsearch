@@ -1,7 +1,7 @@
 {
   "name": "mailsearch",
   "description": "A Simple node-imap and mailparser example",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/kwakayama/node-gmail",
   "bugs": "https://github.com/kwakayama/node-gmail/issues",
   "license": "MIT",
