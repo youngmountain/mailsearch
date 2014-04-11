@@ -2,6 +2,12 @@
 
 A Simple node-imap and mailparser example
 
+## Install
+
+```bash
+$ npm install --save mailsearch
+```
+
 ##Usage
 
     var MailSearch = require('mailsearch');
