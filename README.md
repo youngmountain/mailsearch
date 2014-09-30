@@ -30,5 +30,5 @@ $ npm install --save mailsearch
 ## License
 Copyright (c) 2014 . Licensed under the MIT license.
 
-[daviddm-url]: https://david-dm.org/kwakayama/mailsearch.png?theme=shields.io
-[daviddm-image]: https://david-dm.org/kwakayama/mailsearch
+[daviddm-url]: https://david-dm.org/youngmountain/mailsearch.png?theme=shields.io
+[daviddm-image]: https://david-dm.org/youngmountain/mailsearch
